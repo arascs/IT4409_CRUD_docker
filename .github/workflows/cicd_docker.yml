@@ -33,7 +33,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: lamdb/it4409-sample:staging
+          tags: arascs/IT4409_CRUD_docker:staging
 
   deploy:
     name: Deploy to Server
