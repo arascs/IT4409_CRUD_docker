@@ -33,7 +33,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: arascs/IT4409_CRUD_docker:staging
+          tags: sara700/it4409-sample:staging
 
   deploy:
     name: Deploy to Server
